@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    background: #ffff;
+    width: 100%;
+    box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
+    transition: 0.2s;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .intro-text {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .testimonials {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .hero-btn {
+        visibility: hidden;
+    }
+}
+
+    
+
+
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+.shadows {
+    /* box-shadow: 0 4px 41px rgb(14 55 54 / 14%); */
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+}
+
+.shadow2 {
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+}
+
+.shadow3 {
+    box-shadow: 0px -4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.blog {
+    background-image: url('/img/Pattern\ 2.svg');
+}
+
+
+
