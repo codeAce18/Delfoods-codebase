@@ -11,7 +11,7 @@ module.exports = {
         secondary2: "rgba(149, 149, 149, 1)",
         secondary3: "rgba(51, 46, 40, 1)",
         secondary4:  "rgba(250, 155, 13, 0.3)",
-      }
+      } 
     },
   },
   plugins: [],

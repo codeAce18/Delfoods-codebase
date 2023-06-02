@@ -1161,3 +1161,7 @@ video {
     justify-content: center;
   }
 }
+
+li {
+  list-style: none;
+}
